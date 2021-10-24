@@ -1,0 +1,118 @@
+@media(max-width:580px){
+    .logo{
+        position: relative;
+        margin-top: 2px;
+        left: -20px;
+    }
+    nav ul{
+        max-height: 0px;
+        background: #0005;
+        top:0px;
+    }
+    nav.black ul{
+        background: #0005;
+    }
+    .showing{
+        max-height: 20em;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .menu-icon{
+        display: block;
+    }
+   
+    .icon li a{
+        margin: 0 3px;
+    }
+    .cover-text{
+        width: 98%;
+        top: 150px;
+    }
+    .cover-text p1{
+        font-size: 17px;
+    }
+    .cover-text p{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .about-container{
+        width: 98%;
+    }
+    #pp{
+        font-size: 18px;
+    }
+    #p2{
+        font-size: 19px;
+    }
+    .product-container{
+        width: 98%;
+    }
+    nav .icon{
+        right: 65px;
+        top: 20px;
+    } 
+    /*Contact MEDIA*/
+    .Body-container .contact-form{
+    }
+    .Body-container .contact-form .form-container{
+        width: 90%;
+        margin: 0 auto;
+        height: 520px;
+        
+    }
+    .Body-container .contact-form .form-container .form-side{
+        width: 100%;
+        position: relative;
+        
+    }
+    .Body-container .contact-form .form-container .number-side{
+        width: 100%;
+        position: relative;
+        top:270px;
+        left: 0px; 
+    }
+    .Body-container .contact-form .form-container .email-side{
+        width: 100%;
+        position: relative;
+        top: 270px;
+        left: 0px;
+    }
+    /*Contact MEDIA END*/
+    .footer{
+        top: 1180px;
+    }
+    
+}
+
+
+
+@media(max-width:750px){
+    .icon{
+        right: 20px;
+        top: 35px;
+    } 
+    .icon li a{
+        height: 25px;
+        width: 25px;
+        font-size: 16px;
+    }
+    .cover-text{
+        width: 95%;
+    }
+    nav ul li{
+    display: inline-block;
+    padding: 12px;
+    }
+    .map{
+        width: 95%;
+    }
+    .cover-text p{
+}
+    .footer .design p1{
+    font-size: 14px;
+    }
+}
